@@ -1,0 +1,30 @@
+{
+  "name": "ff-brb-monitor",
+  "version": "1.0.0",
+  "description": "MacOSX App which alerts you whenever a node goes offline.",
+  "main": "main.js",
+  "build": {
+    "productName": "Freifunk BRB Monitor",
+    "appId": "de.freifunk-brandenburg.monitor",
+    "icon": "build/icon.ico",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "displayName": "Freifunk BRB Monitor",
+      "icon": "build/icon.icns"
+    }
+  },
+  "scripts": {
+    "dist": "build"
+  },
+  "author": "Maximilian Strehse",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-builder": "^13.3.2",
+    "electron-packager": "^8.5.1",
+    "shelljs": "^0.7.6"
+  }
+}
