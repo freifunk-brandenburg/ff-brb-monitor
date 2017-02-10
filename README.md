@@ -1,5 +1,5 @@
-Freifunk Health Checker
-=======================
+Freifunk BRB Monitor
+====================
 
 MacOSX App, die dir Notifications anzeigt, wenn ein Freifunkknoten offline geht.
 
